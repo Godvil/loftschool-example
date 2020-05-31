@@ -1,0 +1,47 @@
+{
+  "messages": [
+    {
+      "name": "123",
+      "nickname": "123",
+      "text": "123",
+      "dateString": "31/05/2020 22:43",
+      "timestamp": 1590957787133
+    },
+    {
+      "nickname": "123",
+      "text": "123",
+      "dateString": "31/05/2020 22:45",
+      "timestamp": 1590957955381
+    },
+    {
+      "nickname": "godvil",
+      "text": "Привет!",
+      "dateString": "31/05/2020 22:46",
+      "timestamp": 1590957976333
+    },
+    {
+      "nickname": "123",
+      "text": "321",
+      "dateString": "31/05/2020 22:48",
+      "timestamp": 1590958122021
+    },
+    {
+      "nickname": "123",
+      "text": "123",
+      "dateString": "31/05/2020 22:48",
+      "timestamp": 1590958125381
+    }
+  ],
+  "users": [
+    {
+      "name": "Русаков Александр",
+      "nickname": "godvil",
+      "last_message": "Привет!"
+    },
+    {
+      "name": "123",
+      "nickname": "123",
+      "last_message": "123"
+    }
+  ]
+}

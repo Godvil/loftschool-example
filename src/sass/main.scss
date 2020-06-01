@@ -321,8 +321,13 @@ ul{
     font-family: "Ubuntu Light";
     color: rgb(125, 168, 211);
     margin-top: 5px;
-    margin-left: 5px;
+    margin-right: 5px;
     min-width: 26px;
+    margin-left: auto;
+    padding-left: 10px;
+    min-width: 17%;
+    display: flex;
+    justify-content: flex-end;
 }
 .circle_img {
     border-radius: 50%;

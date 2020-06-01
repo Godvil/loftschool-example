@@ -1,47 +1,46 @@
 {
   "messages": [
     {
-      "name": "123",
-      "nickname": "123",
-      "text": "123",
-      "dateString": "31/05/2020 22:43",
-      "timestamp": 1590957787133
-    },
-    {
-      "nickname": "123",
-      "text": "123",
-      "dateString": "31/05/2020 22:45",
-      "timestamp": 1590957955381
+      "nickname": "godvil",
+      "text": "Привет!",
+      "dateString": "01/06/2020 03:40",
+      "timestamp": 1590975608972
     },
     {
       "nickname": "godvil",
-      "text": "Привет!",
-      "dateString": "31/05/2020 22:46",
-      "timestamp": 1590957976333
+      "text": ":)",
+      "dateString": "01/06/2020 03:40",
+      "timestamp": 1590975633765
     },
     {
-      "nickname": "123",
-      "text": "321",
-      "dateString": "31/05/2020 22:48",
-      "timestamp": 1590958122021
+      "nickname": "nika",
+      "text": "И тебе привет! ;)",
+      "dateString": "01/06/2020 03:56",
+      "timestamp": 1590976568469
     },
     {
-      "nickname": "123",
-      "text": "123",
-      "dateString": "31/05/2020 22:48",
-      "timestamp": 1590958125381
+      "nickname": "godvil",
+      "text": "Как дела?",
+      "dateString": "01/06/2020 04:01",
+      "timestamp": 1590976889206
+    },
+    {
+      "nickname": "nika",
+      "text": "Хорошо!",
+      "dateString": "01/06/2020 04:08",
+      "timestamp": 1590977301629
     }
   ],
   "users": [
     {
       "name": "Русаков Александр",
       "nickname": "godvil",
-      "last_message": "Привет!"
+      "last_message": "Как дела?"
     },
     {
-      "name": "123",
-      "nickname": "123",
-      "last_message": "123"
+      "name": "Демкова Дарья",
+      "nickname": "nika",
+      "last_message": "Хорошо!"
     }
   ]
 }

@@ -135,6 +135,9 @@ ul{
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 5px;
+    background-size: 34px 34px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 .left_row {
     display: flex;
@@ -184,7 +187,10 @@ ul{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background-color: rgb(2, 2, 1);
+    background-color: rgb(176, 176, 176);
+    background-size: 48px 48px;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-left: 15px;
     margin-right: 10px;
 }
@@ -221,8 +227,8 @@ ul{
     border-left: 1px solid #0e1621;
     display: flex;
     align-items: center;
-    margin-top: 20px;
     background: #17212b;
+    margin-top: 20px;
 }
 ::-webkit-scrollbar { 
     width: 0px;
@@ -265,14 +271,16 @@ ul{
 }
 .chat_right {
     width: 100%;
-    height: 310px;
+    height: 294px;
     background: #0e1621;
     display: flex;
     flex-direction: column-reverse;
+    overflow: auto;
 }
 .me_sms {
-    width: 123px;
-    height: 33px;
+    max-width: 360px;
+    min-height: 33px;
+    min-width: 70px;
     border-radius: 5px;
     background-color: rgb(43, 82, 120);
     font-size: 14px;
@@ -280,14 +288,19 @@ ul{
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     margin-left: auto;
-    margin-right: 53px;
+    margin-right: 22px;
+    padding-left: 7px;
+    margin-top: 5px;
+    word-break: break-all;
+    padding: 5px;
 
 }
 .for_me_sms {
-    width: 123px;
-    height: 33px;
+    max-width: 360px;
+    min-height: 33px;
+    min-width: 70px;
     border-radius: 5px;
     background-color: rgb(43, 82, 120);
     font-size: 14px;
@@ -295,7 +308,110 @@ ul{
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-right: auto;
-    margin-left: 53px;
+    margin-left: 11px;
+    padding-left: 7px;
+    margin-top: 5px;
+    word-break: break-all;
+    padding: 5px;
 }
+.time_sms {
+    font-size: 12px;
+    font-family: "Ubuntu Light";
+    color: rgb(125, 168, 211);
+    margin-top: 5px;
+    margin-left: 5px;
+    min-width: 26px;
+}
+.circle_img {
+    border-radius: 50%;
+    background-color: rgb(176, 176, 176);
+    width: 33px;
+    height: 33px;
+    margin-left: 20px;
+    background-size: 33px 33px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.circle_img_right {
+    border-radius: 50%;
+    background-color: rgb(176, 176, 176);
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+    background-size: 33px 33px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box_for_me, .box_me {
+    display: flex;
+}
+.add_img_profile {
+    border-radius: 4px;
+    background-color:#1e2935;
+    width: 364px;
+    height: 317px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.upload_image {
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background: #17212b;
+    background-image: url(../img/camera.png);
+    background-size: 46px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_up {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: "Ubuntu Light";
+    color: rgb(127, 145, 164);
+}
+.box_btn_up {
+    display: flex;
+    margin-top: 30px;
+}
+.save_btn {
+    border-radius: 3px;
+    background-color: rgb(29, 42, 57);
+    width: 170px;
+    height: 36px;
+    font-size: 15px;
+    font-family: "Ubuntu Light";
+    color: rgb(106, 178, 242);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+} 
+.btn_nein {
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    font-family: "Ubuntu Light";
+    color: rgb(106, 178, 242);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.siza_4 {
+    width: 45px;
+    height: 45px;
+}
+.size_photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} 

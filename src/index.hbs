@@ -9,9 +9,6 @@
 </head>
 
 <body>
-    <input type="text" id="input">
-    <button id="send">Send</button>
-    <div class="messages"></div>
     <div class="main">
         <div class="auth">
             <div class="auth_img">
@@ -23,15 +20,14 @@
             <input type="text" id="auth_nickname" class="chat_input ots" name="nickname" placeholder="Введите свой ник">
             <div class="auth_btn">Войти</div>
         </div>
-        <br>
-        <div class="chat_main">
+        <div class="chat_main hide">
             <div class="left_bar">
                 <div class="left_menu">
                     <div class="left_row">
                         <div class="left_img"></div>
                         <div class="row_t_img">
-                            <div class="username"></div>
-                            <div class="clr_t_img">В сети</div>
+                            <div class="username"> <img src="" alt="" class="size_photo"> </div>
+                            <div class="clr_t_img">В сeти</div>
                         </div>
                     </div>
                     <input type="text" class="left_search" placeholder="Найти..." />
@@ -43,17 +39,23 @@
                 <div class="right_info">
                     <div class="span_ch">
                         Чат
-                        <div class="span_ch2" id="user_num">2 участника</div>
+                        <div class="span_ch2" id="user_num"></div>
                     </div>
                 </div>
                 <div class="chat_right">
-                    <div class="me_sms">Херенький ХАЙ!</div>
-                    <div class="for_me_sms">Сам ТАКОЙ!</div>
                 </div>
                 <div class="text_submit">
                     <input type="text" placeholder="Введите сообщение" class="in_mes_text">
                     <div class="button_send_mes">Отправить</div>
                 </div>
+            </div>
+        </div>
+        <div class="add_img_profile hide">
+            <div class="upload_image"><img src="" class="size_photo" alt=""></div>
+            <div class="text_up">Область для профильной фотографии. (Drag&Drop)</div>
+            <div class="box_btn_up">
+                <div class="btn_nein">Отмена</div>
+            <div class="save_btn">Сохранить</div>
             </div>
         </div>
     </div>

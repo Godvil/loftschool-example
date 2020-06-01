@@ -3,13 +3,13 @@ function createWS(url, payloads){
     var socket = new WebSocket(url);
       
     socket.onclose = function(event) {
-        // if (event.wasClean) {
-        //     alert('Соединение закрыто чисто');
-        // } else {
-        //     alert('Обрыв соединения'); // например, "убит" процесс сервера
-        // }
+        if (event.wasClean) {
+            alert('Соединение закрыто чисто');
+        } else {
+            alert('Обрыв соединения');
+        }
 
-        // alert('Код: ' + event.code + ' причина: ' + event.reason);
+        alert('Код: ' + event.code + ' причина: ' + event.reason);
     };
       
     socket.onmessage = function(event) {
@@ -19,7 +19,7 @@ function createWS(url, payloads){
     };
       
     socket.onerror = function(error) {
-        // alert("Ошибка " + error.message);
+        alert("Ошибка " + error.message);
     };
 
     return socket;
